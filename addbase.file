@@ -1,0 +1,92 @@
+nohup: ignoring input
+/usr/lib64/python2.7/site-packages/torch/serialization.py:316: SourceChangeWarning: source code of class 'torch.nn.modules.dropout.Dropout' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/usr/lib64/python2.7/site-packages/torch/serialization.py:316: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv3d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+Evaluating...
+(91, 1, 1, 1024)
+(137, 1, 1, 1024)
+(95, 1, 1, 1024)
+(134, 1, 1, 1024)
+(92, 1, 1, 1024)
+(96, 1, 1, 1024)
+(55, 1, 1, 1024)
+(97, 1, 1, 1024)
+//////////////
+[u'IKJGO']
+137
+//////////////
+[u'IIW0F']
+134
+//////////////
+[u'IKK13']
+97
+//////////////
+[u'IIL9C']
+96
+//////////////
+[u'IGF81']
+95
+//////////////
+[u'IFRT0']
+91
+//////////////
+[u'IKYAW']
+92
+//////////////
+[u'IGZZG']
+55
+(91, 1, 1, 1024)
+(137, 1, 1, 1024)
+(95, 1, 1, 1024)
+(134, 1, 1, 1024)
+(92, 1, 1, 1024)
+(96, 1, 1, 1024)
+(55, 1, 1, 1024)
+(97, 1, 1, 1024)
+/root/liweiqi/my_online_model/apmeter.py:108: UserWarning: torch.range is deprecated in favor of torch.arange and will be removed in 0.3. Note that arange generates values in [start; end), not [start; end].
+  rg = torch.range(1, self.scores.size(0)).float()
+//////////////
+[u'IKK13']
+97
+//////////////
+[u'IIL9C']
+96
+//////////////
+[u'IFRT0']
+91
+//////////////
+[u'IKYAW']
+92
+//////////////
+[u'IKJGO']
+137
+//////////////
+[u'IGZZG']
+55
+//////////////
+[u'IGF81']
+95
+//////////////
+[u'IIW0F']
+134
+////////
+IIL9C
+////////
+IFRT0
+////////
+IKJGO
+////////
+IGZZG
+////////
+IKK13
+////////
+IIW0F
+////////
+IKYAW
+////////
+IGF81
+<class 'torch.FloatTensor'>
+rgb MAP: 0.0839860980595
+flow MAP: 0.0608092943432
+two-stream MAP: 0.0899127818122
